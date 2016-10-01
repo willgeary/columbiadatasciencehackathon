@@ -28,6 +28,6 @@ function replneighbors() {
     $("#pic").html("");
   }
 }
-$("#county").on("change", replneighbors);
+$("#country").on("change", replneighbors);
 $("#ticker").on("change", replneighbors);
 $("#threshold").on("change", replneighbors);
